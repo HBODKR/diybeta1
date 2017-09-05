@@ -1,0 +1,7 @@
+{
+    "name": "wikifab/googleAnalytics",
+    "description":"integration of google analitycs into mediawiki",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

@@ -1,0 +1,12 @@
+.svn
+.idea/
+*~
+*.kate-swp
+.*.swp
+\#*\#
+node_modules/
+scripts/remotes/
+tests/browser/screenshots
+/vendor
+/docs
+composer.lock

@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"userspageslinks-desc": "extension description for userspage links",
+	"userspageslinks-star": "label for favorites page button",
+	"userspageslinks-member": "label for join page button",
+	"userspageslinks-ididit": "label for 'i did it' page button",
+	"userspageslinks-unstar": "label for remove from favorites page button",
+	"userspageslinks-unmember": "label for quit page button",
+	"userspageslinks-unididit": "label for unset 'i did it' page button",
+	"userspageslinks-star-countlabel": "label for favorites counter",
+	"userspageslinks-member-countlabel": "label for member counter",
+	"userspageslinks-ididit-countlabel": "label for 'i did it' counter",
+	"userspageslinks-tab-favorites": "label for favorites tab",
+	"userspageslinks-connectionmodal-content": "text into modal for require connection"
+}

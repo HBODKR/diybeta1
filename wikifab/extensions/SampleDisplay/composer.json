@@ -1,0 +1,7 @@
+{
+    "name": "wikifab/sample-display",
+    "description":"project to display some tutoriel on a qikifab page",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

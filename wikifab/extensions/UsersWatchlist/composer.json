@@ -1,0 +1,7 @@
+{
+    "name": "wikifab/UsersWatchlist",
+    "description": "This is a mediawiki extension to add the UsersWatchList Special Page. This page enable to watch a list of users, and see all the changes they do.",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

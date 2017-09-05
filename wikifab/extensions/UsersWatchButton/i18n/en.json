@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"userswatchbutton-desc": "add a button to follow users",
+	"userswatchbutton-button-text": "Follow",
+	"userswatchbutton-unwatchbutton-text": "Unfollow",
+	"userswatchbutton-followers": "Followers",
+	"userswatchbutton-following": "Following",
+    "combinedwatchlist-notif-header-message-create": "$1 create page  <strong>$3</strong> ",
+	"combinedwatchlist-notif-header-message-edit": "$1 edit page <strong>$3</strong> ",
+	"combinedwatchlist-notif-body-message": "",
+	"echo-category-title-combinedwatchlist": "Watch list notifications",
+    "echo-pref-tooltip-combinedwatchlist": "Notify me when a user that I follow do a modification.",
+	"newfollower-notif-header-message": "$1 follow you ",
+	"newfollower-notif-body-message": "",
+	"echo-category-title-newfollower": "New follower",
+	"echo-pref-tooltip-newfollower": "Notify me when a user follow me."
+}

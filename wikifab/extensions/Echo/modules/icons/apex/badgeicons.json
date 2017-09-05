@@ -1,0 +1,11 @@
+{
+	"prefix": "oo-ui-icon",
+	"images": {
+		"bell": {
+			"file": "../bell.svg"
+		},
+		"tray": {
+			"file": "../tray.svg"
+		}
+	}
+}

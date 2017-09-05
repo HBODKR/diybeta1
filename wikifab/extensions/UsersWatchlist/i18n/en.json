@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "Clément Flipo"
+        ]
+    },
+	"userswatchlist": "Users watchlist",
+	"userswatchlistanontext": "Please log in to view or edit items on your watchlist.",
+	"userswatchlisttools-view": "View relevant users watchlist",
+	"userswatchlisttools-edit": "View and edit users watchlist",
+	"userswatchlisttools-raw": "Edit raw users watchlist",
+	"userswatchlisttools-clear": "Clear the users watchlist",
+	"userswatchlistedit-normal-title": "Edit users watchlist",
+	"userswatchlistfor2": "For $1 $2",
+	"userswatchlistedit-normal-legend": "Remove users from users watchlist",
+	"userswatchlistedit-normal-explain": "Users on your watchlist are shown below.\nTo remove a user, check the box next to it, and click \"{{int:userswatchlistedit-normal-submit}}\".\nYou can also [[Special:EditUsersWatchlist/raw|edit the raw list]].",
+	"userswatchlistedit-normal-submit": "Remove users",
+	"userswatchlistedit-raw-title": "Edit raw users watchlist",
+	"userswatchlistedit-raw-legend": "listedit-raw-legend",
+	"userswatchlistedit-raw-explain": "Users on your users watchlist are shown below, and can be edited by adding to and removing from the list;\none title per line.\nWhen finished, click \"{{int:userswatchlistedit-raw-submit}}\".\nYou can also [[Special:EditUsersWatchlist|use the standard editor]].",
+	"userswatchlistedit-raw-titles": "Users:",
+	"userswatchlistedit-raw-submit": "Update users watchlist",
+	"userswatchlistedit-raw-done": "Your users watchlist has been updated.",
+	"userswatchlistedit-raw-added": "{{PLURAL:$1|1 user was|$1 users were}} added:",
+	"userswatchlistedit-raw-removed": "{{PLURAL:$1|1 user was|$1 users were}} removed:",
+	"userswatchlistedit-raw-failed": "{{PLURAL:$1|1 user can't|$1 users can't}} be added:",
+	"userswatchlistedit-clear-title": "Cleared followed users list",
+	"userswatchlistedit-clear-legend": "Clear followed users list",
+	"userswatchlistedit-clear-explain": "All of the users will be removed from your users watch list",
+	"userswatchlistedit-clear-titles": "Users:",
+	"userswatchlistedit-clear-submit": "Clear the users watchlist (This is permanent!)",
+	"userswatchlistedit-clear-done": "Your users watchlist has been cleared.",
+	"userswatchlistedit-clear-removed": "{{PLURAL:$1|1 user was|$1 users were}} removed:",
+	"userswatchlistedit-too-many": "There are too many pages to display here.",
+	"prefs-userswatchlist": "watchlist per users",
+	"tog-userswatchlist-allow": "Allow other users to add me to their users watchlist"
+}

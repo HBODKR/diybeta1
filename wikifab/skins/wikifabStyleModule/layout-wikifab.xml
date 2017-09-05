@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is part of the MediaWiki skin Chameleon.
+
+@copyright 2013 - 2014, Stephan Gambke
+@license   GNU General Public License, version 3 (or any later version)
+
+The Chameleon skin is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+The Chameleon skin is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along
+with this program. If not, see <http://www.gnu.org/licenses/>.
+
+@author Stephan Gambke
+@since 1.0
+@ingroup Skins
+-->
+<structure>
+
+	<component type="NavbarHorizontal" fixed="0">
+
+		<component type="Logo" position="head"></component>
+		<component type="SearchBar" position="left"></component>
+		<component type="NavMenu" flatten="navigation"></component>
+		<component type="NewTutoBar" position="right"></component>
+		<component type="PersonalTools" position="right"> </component>
+	</component>
+
+
+
+	<component class="wiki-nav">
+		<!--  tool bar for other page than Home page-->
+		<modification type="HideFor" page="Main_Page,Accueil,Explorer,ExploreGroups,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,UpdateProfile,
+			UpdateProfile/personal,WfExplore,Group,Groups,Groupes,Wikifab_est_en_version_Beta,Early_access,Hello_World,Explore,Contribute,Tutorial,Help,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+		<grid>
+			<row>
+				<cell span="12">
+					<component type="PageTools"></component>
+				</cell>
+			</row>
+		</grid>
+	</component>
+	<component class="wiki-nav">
+		<!--  tool bar for Home page visible only by administrators -->
+		<modification type="ShowOnlyFor" page="Main_Page,Accueil,Explorer,ExploreGroups,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,UpdateProfile,
+			UpdateProfile/personal,WfExplore,Group,Groups,Groupes,Wikifab_est_en_version_Beta,Early_access,Hello_World,Explore,Contribute,Tutorial,Help,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+		<modification type="ShowOnlyFor" group="admin,sysop"></modification>
+		<grid>
+			<row>
+				<cell span="12">
+					<component type="PageTools"></component>
+				</cell>
+			</row>
+		</grid>
+	</component>
+
+	<component>
+		<modification type="HideFor" page="Main_Page,Accueil,Explorer,ExploreGroups,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,WfExplore,
+			Wikifab_est_en_version_Beta,Early_access,Group,Groups,Groupes,Explore,Contribute,Tutorial,Help,Hello_World,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+			<modification type="HideFor" namespace="NS_GROUP"></modification>
+		<grid>
+			<row>
+				<cell span="12">
+					<component type="SiteNotice"></component>
+				</cell>
+			</row>
+
+			<row>
+				<cell span="12">
+					<component type="MainContent"></component>
+				</cell>
+			</row>
+
+		</grid>
+	</component>
+
+	<component>
+		<modification type="ShowOnlyFor" page="Main_Page,Accueil,Explorer,ExploreGroups,Group,Groups,Groupes,Contribuer,Tutoriel,Communauté,Community,Indispensable,Aide,Développeurs,Developers,WfExplore,Wikifab_est_en_version_Beta,Early_access,Explore,Contribute,Tutorial,Help,Hello_World,mw-special-WfSearch,Get_started,Premiers_pas,Bonnes_pratiques,Best_practices"></modification>
+			<cell>
+				<cell span="12">
+					<component type="MainContent"></component>
+				</cell>
+			</cell>
+	</component>
+	
+	<component>
+		<modification type="ShowOnlyFor" namespace="NS_GROUP"></modification>
+			<cell>
+				<cell span="12">
+					<component type="MainContent"></component>
+				</cell>
+			</cell>
+	</component>
+
+	<component class="feedback">
+		<component type="FeedbackBtn"></component>
+	</component>
+
+	<component class="footerdata">
+		<grid>
+			<row>
+				<cell span="12">
+					<component type="WikifabFooterInfo"></component>
+				</cell>
+			</row>
+		</grid>
+	</component>
+
+
+<component class="footer-main">
+
+	<component class="container">
+		<component type="WikifabFooterLinks"></component>
+
+		<row class="footer-credits">
+			<cell span="7">
+				<component type="WikifabFooter"></component>
+			</cell>
+			<cell span="5">
+				<component type="FooterIcons"></component>
+			</cell>
+		</row>
+	</component>
+</component>
+
+
+<!--  Hide original MediaWiki Footer -->
+<!-- 
+<component class="footer-test">
+
+	<grid>
+		<row class="footer-div">
+			<cell span="12">
+				<component type="ToolbarHorizontal"></component>
+			</cell>
+		</row>
+
+		<row class="footer-div">
+			<cell span="12">
+				<component type="FooterInfo"></component>
+			</cell>
+		</row>
+
+		<row class="footer-div">
+			<cell span="6">
+				<component type="FooterPlaces"></component>
+			</cell>
+			<cell span="6">
+				<component type="FooterIcons"></component>
+			</cell>
+		</row>
+
+	</grid>
+
+</component>
+
+-->
+
+</structure>

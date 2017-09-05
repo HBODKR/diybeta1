@@ -1,0 +1,52 @@
+{
+	"name": "PageMediaGallery",
+	"version": "0.0.0",
+	"author": [
+		"Pierre Boutet"
+	],
+	"url": "https://github.com/Wikifab/PageMediaGallery",
+	"descriptionmsg": "imagesGallery-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"PageMediaGallery\\Hooks": "includes/Hooks.php"
+	},
+	"config": {
+		"PageMediaGalleryFoo": true
+	},
+	"callback": "PageMediaGallery\\Hooks::onExtensionLoad",
+	"Hooks": {
+		"EditPage::showEditForm:initial": [
+			"PageMediaGallery\\Hooks::start"
+		],
+		"FormEdit::showEditForm:initial": [
+			"PageMediaGallery\\Hooks::start"
+		],
+		"sfRenderingEnd": [
+			"PageMediaGallery\\Hooks::addToForm"
+		],
+		"UploadComplete": [
+			"PageMediaGallery\\Hooks::onUploadComplete"
+		]
+	},
+	"MessagesDirs": {
+		"PageMediaGallery": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.pageMediaGallery": {
+			"scripts": [
+				"pageMediaGallery.js"
+			],
+			"styles": [
+				"pageMediaGallery.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "PageMediaGallery/modules"
+	},
+	"manifest_version": 1
+}

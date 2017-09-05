@@ -1,0 +1,132 @@
+.addToGroupLink.groupAdded {
+	color:green;
+}
+
+.dropdownButton-addtogroup button {
+	background-color: #eee;
+	background-image: -webkit-linear-gradient(#fcfcfc,#eee);
+	background-image: linear-gradient(#fcfcfc,#eee);
+	border: 1px solid #d5d5d5;
+    margin-left: 5px;
+    padding: 4px 10px;
+}
+
+.mw-body .dropdownButton-addtogroup ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.mw-body .dropdownButton-addtogroup ul > li.dropdownInfoMessage {
+	font-size: 11px;
+	padding: 0px 10px;
+}
+
+.dropdownButton-addtogroup .dropdown-menu > li.addtogroup-alert {
+	font-size: 10px;
+	padding-left:5px;
+}
+
+.dropdownButton-addtogroup > .dropdown-menu {
+	min-width:210px;
+}
+
+.dropdownButton-addtogroup .dropdown-menu > li > a {
+    padding: 3px 10px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.tabGroupsButton {
+	text-align:right;
+}
+
+body[class^='page-Group_'].tabber, body[class*='page-Group_'].tabber {
+	margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+	body[class^='page-Group_'].tabber, body[class*='page-Group_'].tabber {
+		margin-top: 20px;
+	}
+}
+
+.mw-special-ExploreGroups .contentHeader,
+.mw-special-ExploreGroups .mw-specialpage-summary {
+    display: none;
+}
+
+.group-thumbnail img {
+    max-width: 116px;
+	max-height: 116px;
+    margin: auto;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.group-thumbnail {
+    overflow: hidden;
+    height: 116px;
+    display: flex;
+}
+
+.group-card-content {
+    padding: 10px 15px 10px 0px;
+}
+
+h5.group-title {
+    font-size: 19px;
+    margin-top: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#bodyContent .searchresults p.group-byline {
+    font-size: 12px;
+    color: #aaa;
+    height: 15px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+#bodyContent .searchresults p.group-blurb {
+    height: 38px;
+    font-size: 13px;
+    overflow: hidden;
+    color: #444;
+	margin-bottom:0px;
+}
+
+@media (max-width: 1200px) {
+	.group-thumbnail img {
+	    max-width: 91px;
+	    max-height: 91px;
+	}
+	
+	.group-thumbnail {
+		height: 91px;
+	}
+	
+	#bodyContent .searchresults p.group-blurb {
+	    height: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#bodyContent .searchresults p.group-blurb {
+	    height: 37px;
+	}
+	.group-thumbnail img {
+	    max-width: 114px;
+	    max-height: 114px;
+	}
+	
+	.group-thumbnail {
+		height: 114px;
+	}
+}
+

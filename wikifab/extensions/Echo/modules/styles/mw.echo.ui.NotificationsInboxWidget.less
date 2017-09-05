@@ -1,0 +1,87 @@
+@import '../echo.variables';
+.mw-echo-ui-notificationsInboxWidget {
+	width: @specialpage-width;
+	&-row {
+		display: table-row;
+		width: 100%;
+	}
+	&-cell {
+		display: table-cell;
+		vertical-align: middle;
+		&-placeholder {
+			display: table-cell;
+			width: 100%;
+		}
+	}
+
+	&-sidebar {
+		width: @specialpage-sidebar-width;
+		padding-right: 1em;
+		vertical-align: top;
+
+		@media all and ( max-width: @specialpage-mobile-width-medium ) {
+			// Hide the sidebar for small screens
+			display: none;
+		}
+	}
+
+	&-main {
+		vertical-align: top;
+		width: 100%;
+
+		&-toolbar {
+			&-top {
+				display: table;
+				margin-bottom: 3 * @specialpage-separation-unit;
+				width: 100%;
+			}
+
+			&-bottom {
+				display: table;
+				width: inherit;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 3 * @specialpage-separation-unit;
+			}
+
+			&-settings {
+				padding-left: 1em;
+			}
+		}
+	}
+
+	@media all and ( max-width: @specialpage-mobile-width-medium ) {
+		// Make narrow
+		width: @specialpage-mobile-width-small;
+
+		// Override table-layout for the top toolbar so we get
+		// filters and pagination under one another
+		&-main {
+			&-toolbar {
+				&-top {
+					display: block;
+					margin-bottom: 1em;
+
+					.mw-echo-ui-notificationsInboxWidget-row {
+						display: block;
+						text-align: center;
+					}
+				}
+				&-readState {
+					display: inline-block;
+				}
+				&-settings,
+				&-pagination {
+					display: inline-block;
+					margin-top: 1em;
+				}
+
+				&-settings {
+					.oo-ui-popupWidget-popup {
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+}

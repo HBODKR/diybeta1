@@ -1,0 +1,26 @@
+{
+    "name": "wikifab/wikifabStyleModule",
+    "description": "skin pour wikifab, doit etre utilisé ave la skin wikifab/chameleon",
+    "type": "mediawiki-skin",
+	"description": "Skin for wikifab based on chameleon skin",
+	"keywords"   : [
+		"wiki",
+		"MediaWiki",
+		"skin",
+		"Twitter",
+		"Bootstrap",
+		"Chameleon",
+		"Wikifab"
+	],
+	"authors"    : [
+		{
+			"name" : "Pierre Boutet",
+			"role" : "Developer"
+		}
+	],
+	"autoload"   : {
+		"files": [ ],
+		"psr-4": {
+		}
+	}
+}

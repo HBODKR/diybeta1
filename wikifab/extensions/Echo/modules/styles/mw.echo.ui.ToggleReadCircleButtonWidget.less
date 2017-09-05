@@ -1,0 +1,31 @@
+@import '../echo.variables';
+
+.mw-echo-ui-toggleReadCircleButtonWidget {
+	&-circle {
+		border-radius: 50%;
+		width: @bundle-group-padding;
+		height: @bundle-group-padding;
+		margin: @bundle-group-padding;
+		box-sizing: border-box;
+
+		// Mark as read
+		background-color: #36c;
+		border: 0;
+
+		// Mark as unread
+		&-unread {
+			background-color: #eaecf0;
+			border: 1px solid #71777d;
+		}
+	}
+
+	&:hover .mw-echo-ui-toggleReadCircleButtonWidget-circle {
+		// Mark as read
+		background-color: #99b2e5;
+
+		// Mark as unread
+		&-unread {
+			background-color: #c8ccd1;
+		}
+	}
+}

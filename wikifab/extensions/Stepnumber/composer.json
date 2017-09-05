@@ -1,0 +1,6 @@
+{
+    "name": "wikifab/stepnumber",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

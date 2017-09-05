@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"George Animal",
+			"Bikarhêner"
+		]
+	},
+	"prefs-emailsettings": "Vebijarkên e-nameyê",
+	"echo-pref-web": "Web",
+	"echo-pref-email": "E-name",
+	"echo-pref-email-format-html": "HTML",
+	"echo-learn-more": "Bêhtir hîn bibe",
+	"echo-new-messages": "Peyamên nû ji te re hene",
+	"echo-category-title-user-rights": "{{PLURAL:$1|Guherandina mafên bikarhêran|Guherandinan mafên bikarhêneran}}",
+	"tooltip-pt-notifications-alert": "{{GENDER:|Agahdariyên}} te",
+	"tooltip-pt-notifications-message": "Agahdariyên {{GENDER:|te}}",
+	"echo-displaynotificationsconfiguration-enabled-default-existing-users-legend": "Bikarhênerên hene",
+	"echo-displaynotificationsconfiguration-enabled-default-new-users-legend": "Bikarhênerên nû",
+	"echo-notification-placeholder": "Agahdariyên te tine nin.",
+	"notification-link-text-view-changes": "Guherandinan {{GENDER:$1|bibîne}}",
+	"notification-link-text-view-page": "Rûpelê bibîne",
+	"notification-link-text-what-links-here": "Hemû girêdanên ber bi vê rûpelê ve",
+	"notification-header-emailuser": "$1 peyamek ji te re {{GENDER:$2|şand.}}",
+	"notification-user-rights-email-subject": "Mafên te yên bikarhêneriyê li ser {{SITENAME}} hatin guherandin.",
+	"notification-timestamp-today": "Îro",
+	"notification-timestamp-yesterday": "Doh",
+	"notification-inbox-filter-read": "Bixwîne",
+	"notification-inbox-filter-all": "Hemû",
+	"echo-mark-all-as-read": "Hemûkan wek xwendî nîşan bide",
+	"echo-date-today": "Îro",
+	"echo-date-yesterday": "Doh"
+}

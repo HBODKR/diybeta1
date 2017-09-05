@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"userspageslinks-desc": "Extension to add button to link users with pages",
+	"userspageslinks-star": "Star",
+	"userspageslinks-member": "Join",
+	"userspageslinks-ididit": "I did It",
+	"userspageslinks-unstar": "UnStar",
+	"userspageslinks-unmember": "Quit",
+	"userspageslinks-unididit": "I didn't do it",
+	"userspageslinks-star-countlabel": "{{PLURAL:$1|Star|Stars}}",
+	"userspageslinks-member-countlabel": "{{PLURAL:$1|Member|Members}}",
+	"userspageslinks-ididit-countlabel": "{{PLURAL:$1|Maker|Makers}}",
+	"userspageslinks-tab-favorites": "Favorites",
+	"userspageslinks-connectionmodal-content": "You doesn't have an account ? Subscribe to get the best of Wikifab !",
+	"groupspage-addtogroup-label": "add to group",
+	"groupspage-addtogroup-message": "Join a group to add pages into the group"
+}

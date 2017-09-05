@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Pierre Boutet"
+        ]
+    },
+	"userswatchbutton-desc": "ajout d'un Button pour suivre un utilisateur",
+	"userswatchbutton-button-text": "Suivre",
+	"userswatchbutton-unwatchbutton-text": "Ne plus suivre",
+	"userswatchbutton-followers": "Abonnés",
+	"userswatchbutton-following": "Abonnements",
+    "combinedwatchlist-notif-header-message-create": "$1 {{GENDER:$2|a créé}} la page <strong>$3</strong> ",
+	"combinedwatchlist-notif-header-message-edit": "$1 {{GENDER:$2|a modifié}} la page <strong>$3</strong> ",
+	"combinedwatchlist-notif-body-message": "",
+	"echo-category-title-combinedwatchlist": "Liste de suivi",
+	"echo-pref-tooltip-combinedwatchlist": "Me notifier lorsque les utilisateurs que je suis font de nouvelles modifications",
+	"newfollower-notif-header-message": "$1 vous suit sur Wikifab ! :)",
+	"newfollower-notif-body-message": "Vous avez un nouvel abonné sur Wikifab : $2 \nVoir son profil : $3",
+	"echo-category-title-newfollower": "Nouvel abonné",
+	"echo-pref-tooltip-newfollower": "Me notifier lorsqu'un nouvel utilisateur me suit"
+}

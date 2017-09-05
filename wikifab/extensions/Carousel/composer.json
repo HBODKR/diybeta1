@@ -1,0 +1,6 @@
+{
+    "name": "wikifab/carousel",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

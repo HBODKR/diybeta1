@@ -1,0 +1,8 @@
+{
+    "name": "wikifab/SocialProfile",
+    "type": "mediawiki-extension",
+    "require": {
+    },
+    "prepend-autoloader": false,
+    "optimize-autoloader": true
+}

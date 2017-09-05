@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"userswatchbutton-desc": "description of the userwatchbutton extension",
+	"userswatchbutton-button-text": "text of button to follow a user",
+	"userswatchbutton-unwatchbutton-text": "text of button to unfollow a user",
+	"userswatchbutton-followers": "Followers",
+	"userswatchbutton-following": "Following",
+    "combinedwatchlist-notif-header-message-create": "notification message when a user create a page",
+	"combinedwatchlist-notif-header-message-edit": "notification message when a user edit a page ",
+	"combinedwatchlist-notif-body-message": "",
+	"echo-category-title-combinedwatchlist": "name of the notification categories",
+	"echo-pref-tooltip-combinedwatchlist": "This is a short description of the combinedwatchlist notification category.\n{{Related|Echo-pref-tooltip}}",
+	"newfollower-notif-header-message": "notification message for new follower",
+	"newfollower-notif-body-message": "",
+	"echo-category-title-newfollower": "name of the notification categories for new follower",
+	"echo-pref-tooltip-newfollower": "his is a short description of the newfollower notification category.\n{{Related|Echo-pref-tooltip}}"
+}
